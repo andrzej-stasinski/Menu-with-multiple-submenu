@@ -1,0 +1,36 @@
+* {
+	margin: 0;padding: 0;
+}
+body {
+	font-family: 'Lato', Verdana, Geneva, sans-serif;
+	/*font-family:  Verdana, Geneva, sans-serif;*/
+}
+#container {
+	background-color: steelblue;
+	margin: 0 auto;
+	width: 960px;
+	margin-top: 10px;
+}
+.clr {
+	clear:both;
+}
+#content {
+	background-color: #efe;
+	min-height:200px;
+	padding: 10px; 
+}
+footer {
+	background-color: steelblue;
+	line-height: 30px;
+	color:white;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+

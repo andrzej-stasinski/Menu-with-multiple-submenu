@@ -1,0 +1,103 @@
+/*menu poziome */
+* {margin:0; padding:0}
+#menu	{
+text-align:center;line-height:30px;
+position: relative;
+font-size:0.9em;
+}
+
+/* podswietlany na stale link */
+#menu li	{								/* light - a z background do LI */
+background-color:steelblue;
+}
+/* kropki - oddzielacze */
+#menu > ul > li	{							/* light - a z background do LI */
+border-right: 1px yellow dotted;
+}
+#menu > ul > li	ul > li {					/* light - a z background do LI */
+border-bottom: 1px yellow dotted;
+}
+#menu li:hover	{							/* light - LI:hover dodane */
+background-color:blue;
+}
+/* end light */
+#menu li a	{
+color:white;
+display:block;text-decoration: none;}
+#menu a:hover {
+color:white;background-color:#39F;
+}
+
+#menu ul ul {
+	position: absolute;
+}
+
+/* grafika gorna */
+#menu > ul > li > a.gorne {
+	background-image: url(navdown_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;	
+}
+#menu ul li a.poziom {
+	background-image: url(nav_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;	
+}
+
+#menu UL	{
+list-style-type:none;margin:0;padding:0;}
+#menu LI 	{
+float:left;
+}
+
+/* szerokosc */
+#menu LI  	{
+width:120px;
+}
+#menu UL UL UL {
+left:120px;	
+}
+/* menu 1-poziom */
+#menu UL UL	{display:none;}
+#menu LI:hover UL	{display:block;}	/* item 1.1 ma sie pojawic */
+
+/* menu 2-poziom */
+#menu LI:hover UL UL	{				/* item 1.1.1 ma zniknac */
+display:none;}
+#menu LI LI:hover UL	{  				/* item 1.1.1 ma sie pojawic */
+display:block;
+}
+#menu LI	{position:relative;}
+#menu UL UL UL	{						/* polozenie item 1.1.1 */
+position:absolute;top:0;	
+}
+
+/* kropki - oddzielacze */
+#menu LI:hover UL UL	{
+border-left: 1px yellow dotted;
+}
+
+/* menu 3-poziom */
+#menu LI LI:hover UL UL	{
+display:none;
+}
+#menu LI LI LI:hover UL 	{
+display:block;
+}
+
+/* menu 4-poziom */
+#menu LI LI LI:hover UL	UL	{
+display:none;
+}
+#menu LI LI LI LI:hover UL	{
+display:block;
+}
+
+
+
+
+
+
+
+
+
