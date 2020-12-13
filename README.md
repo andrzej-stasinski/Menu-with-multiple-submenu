@@ -3,4 +3,4 @@
 #### Features
 * the menu has many sub-menus
 * solution only in CSS, no JavaScript
-* menu depth - four submenu
+* menu depth - example with four submenu
